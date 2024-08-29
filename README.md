@@ -8,16 +8,6 @@ You are a Data Engineer. You have been asked to create an ETL process to ingest 
 - jillsjunk.csv.gz: product price and quantity from distributor Jill's Junk
 - samsstuff.csv.gz: product price and quantity from distributor Sam's Stuff
 
-This is a very small, slightly transformed, and slightly fabricated sample of data from https://amazon-reviews-2023.github.io/.
-```
-@article{hou2024bridging,
-  title={Bridging Language and Items for Retrieval and Recommendation},
-  author={Hou, Yupeng and Li, Jiacheng and He, Zhankui and Yan, An and Chen, Xiusi and McAuley, Julian},
-  journal={arXiv preprint arXiv:2403.03952},
-  year={2024}
-}
-```
-
 ### Sample from products.json.gz
 ```
 [
@@ -112,4 +102,15 @@ Sea Gull Lighting,65061BLE-962,156.67449440002576,3
 Alatino,AL095G,49.98610122662185,994
 ROADFAR,103539-5231-1538273081,48.96344833627786,28
 AUTEX,194741,31.43787152180632,233
+```
+
+### Citation
+This is a very small, slightly transformed, and slightly fabricated sample of data from https://amazon-reviews-2023.github.io/.
+```
+@article{hou2024bridging,
+  title={Bridging Language and Items for Retrieval and Recommendation},
+  author={Hou, Yupeng and Li, Jiacheng and He, Zhankui and Yan, An and Chen, Xiusi and McAuley, Julian},
+  journal={arXiv preprint arXiv:2403.03952},
+  year={2024}
+}
 ```
