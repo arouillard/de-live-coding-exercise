@@ -1,10 +1,10 @@
 # de-live-coding-exercise
 
 ### Instructions
-You are a Data Engineer. You have been asked to create a pipeline to ingest product data into a relational database.
+You are a Data Engineer. You have been asked to create an ETL process to ingest new or updated product data from multiple sources. The product owner for this project has obtained sample datasets, described below. You have been told that products should be uniquely identified by SKU and Manufacturer, and that the ingested data will be heavily queried by business applications. What will you do?
 
 ### Datasets
-- products.json.gz: product metadata from third party data curator
+- products.json.gz: product metadata from a third-party data curator's API
 - jillsjunk.csv.gz: product price and quantity from distributor Jill's Junk
 - samsstuff.csv.gz: product price and quantity from distributor Sam's Stuff
 
@@ -103,7 +103,6 @@ Cobella,US-B-0064,27.0128688616202,5
 Jack Nicklaus,JNWF8027,20.448063682232306,156
 Sperry Top Sider Mens Accessories,5H150,16.16519465681872,875
 ```
-
 
 ### Sample from samsstuff.csv.gz
 ```
